@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sine MUN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #222;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .hero {
+            background: url('https://source.unsplash.com/1600x900/?conference,diplomacy') no-repeat center center/cover;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+        }
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .button:hover {
+            background: #0056b3;
+        }
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        Sine MUN
+    </header>
+
+    <div class="hero">
+        Welcome to Sine MUN 2025
+    </div>
+
+    <section>
+        <h2>About Sine MUN</h2>
+        <p>Sine MUN is an immersive Model United Nations experience where delegates engage in diplomacy, debate, and global problem-solving.</p>
+    </section>
+
+    <section>
+        <h2>Committees</h2>
+        <p>Engage in high-quality discussions across various UN committees.</p>
+    </section>
+
+    <section>
+        <h2>Register Now</h2>
+        <p>Secure your spot and be part of the change.</p>
+        <a href="#" class="button">Register</a>
+    </section>
+
+    <footer>
+        &copy; 2025 Sine MUN. All Rights Reserved.
+    </footer>
+
+</body>
+</html>
